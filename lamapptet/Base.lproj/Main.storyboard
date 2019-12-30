@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lamapptet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cute-happy-white-mouse-big-ears-traditional-chinese-jacket-holding-scrolls-new-year-rat-vector-mascot-character-t-158045685" translatesAutoresizingMaskIntoConstraints="NO" id="ylg-yB-DVd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="group.png" translatesAutoresizingMaskIntoConstraints="NO" id="baO-fZ-r3r">
+                                <rect key="frame" x="212" y="148" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="bomb (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="RYa-Ky-g6K">
+                                <rect key="frame" x="130" y="30" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="cave-painting.png" translatesAutoresizingMaskIntoConstraints="NO" id="R5G-2d-DXJ">
+                                <rect key="frame" x="40" y="132" width="73" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="cave-painting.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fh0-RH-bc4">
+                                <rect key="frame" x="307" y="296" width="71" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="bomb.png" translatesAutoresizingMaskIntoConstraints="NO" id="Su7-Ao-Ho1">
+                                <rect key="frame" x="212" y="407" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="cave-painting.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q49-wR-rmU">
+                                <rect key="frame" x="20" y="478" width="64" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="stone.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Mv-bn-iDY">
+                                <rect key="frame" x="274" y="561" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rock.png" translatesAutoresizingMaskIntoConstraints="NO" id="xX3-hR-m1T">
+                                <rect key="frame" x="130" y="296" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fire.png" translatesAutoresizingMaskIntoConstraints="NO" id="QpR-j7-wt8">
+                                <rect key="frame" x="103" y="642" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="enemy.png" translatesAutoresizingMaskIntoConstraints="NO" id="4h0-TS-w91">
+                                <rect key="frame" x="307" y="148" width="87" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htO-zT-NaX">
+                                <rect key="frame" x="323" y="44" width="55" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="play-button.png"/>
+                                <connections>
+                                    <action selector="playgame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WbN-g6-VRK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTU-2s-qEM">
+                                <rect key="frame" x="317" y="106" width="68" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.074750078760000005" blue="0.093591347170000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="mouse (2).png" translatesAutoresizingMaskIntoConstraints="NO" id="5Ey-xk-pKR">
+                                <rect key="frame" x="176" y="801" width="63" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LwX-yx-9Kd" appends="YES" id="3S4-GO-Ksx"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bom1" destination="RYa-Ky-g6K" id="c0f-nk-jNV"/>
+                        <outlet property="bom10" destination="Su7-Ao-Ho1" id="HRe-sf-ZcX"/>
+                        <outlet property="bom2" destination="4h0-TS-w91" id="Uj3-5Q-4pM"/>
+                        <outlet property="bom3" destination="baO-fZ-r3r" id="nsp-jJ-Nzj"/>
+                        <outlet property="bom4" destination="R5G-2d-DXJ" id="94r-Ov-5fE"/>
+                        <outlet property="bom5" destination="Fh0-RH-bc4" id="DsQ-As-b3f"/>
+                        <outlet property="bom6" destination="xX3-hR-m1T" id="SRW-rg-5WQ"/>
+                        <outlet property="bom7" destination="2Mv-bn-iDY" id="7sE-eI-TLD"/>
+                        <outlet property="bom8" destination="Q49-wR-rmU" id="658-ay-UAI"/>
+                        <outlet property="bom9" destination="QpR-j7-wt8" id="LcD-Zh-3Wn"/>
+                        <outlet property="chuot" destination="5Ey-xk-pKR" id="gh2-u3-QDY"/>
+                        <outlet property="lbldiem" destination="ZTU-2s-qEM" id="pif-Za-RpP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="LwX-yx-9Kd">
+                    <connections>
+                        <action selector="keotha:" destination="BYZ-38-t0r" id="WZ1-fg-lkq"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="101.78571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bomb (1).png" width="384" height="384"/>
+        <image name="bomb.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="cave-painting.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="cute-happy-white-mouse-big-ears-traditional-chinese-jacket-holding-scrolls-new-year-rat-vector-mascot-character-t-158045685" width="800" height="800"/>
+        <image name="enemy.png" width="512" height="512"/>
+        <image name="fire.png" width="512" height="512"/>
+        <image name="group.png" width="384" height="384"/>
+        <image name="mouse (2).png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="play-button.png" width="46.428211212158203" height="46.428211212158203"/>
+        <image name="rock.png" width="384" height="384"/>
+        <image name="stone.png" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>
